@@ -1,6 +1,7 @@
 # blogapp
 
-<iframe width="560" height="315" src="lib/demo/Android Emulator - Pixel_6_Pro_API_33_5554 2024-06-03 23-43-13.mp4" frameborder="0" allowfullscreen></iframe>
+[Download Video](lib/demo/Android%20Emulator%20-%20Pixel_6_Pro_API_33_5554%202024-06-03%2023-43-13.mp4)
+
 
 
 [DOWNLOAD APK](lib/demo/app-release.apk)
