@@ -1,5 +1,6 @@
 # blogapp
 
+[DOWNLOAD APK](lib/demo/app-release.apk)
 
 ## GoogleDrive Folder for Video and release mode apk:
 
