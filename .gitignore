@@ -1,7 +1,3 @@
 
 android/app/google-services.json
 lib/config/firebasecreds.dart
-# ios/Runner/GoogleService-Info.plist
-# build/app/intermediates/stripped_native_libs/release/out/lib/x86_64/libapp.so
-# build/app/intermediates/stripped_native_libs/release/out/lib/armeabi-v7a/libapp.so
-# build/app/intermediates/stripped_native_libs/release/out/lib/arm64-v8a/libapp.so
