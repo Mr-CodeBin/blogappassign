@@ -1,6 +1,6 @@
 # blogapp
 
-[Demo Video](lib/demo/Android Emulator - Pixel_6_Pro_API_33_5554 2024-06-03 23-43-13.mp4)
+[DEMO VIDEO](lib/demo/Android Emulator - Pixel_6_Pro_API_33_5554 2024-06-03 23-43-13.mp4)<br>
 [DOWNLOAD APK](lib/demo/app-release.apk)
 
 
