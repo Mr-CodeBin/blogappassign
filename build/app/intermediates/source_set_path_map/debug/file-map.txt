@@ -1,0 +1,22 @@
+com.example.blogapp-jetified-annotation-experimental-1.1.0-0 C:\Users\Rnbro\.gradle\caches\transforms-3\09db32a73384ac2dccccf916d7dc0262\transformed\jetified-annotation-experimental-1.1.0\res
+com.example.blogapp-core-1.6.0-1 C:\Users\Rnbro\.gradle\caches\transforms-3\168e459aae59caaab0d2c703cf9d67ab\transformed\core-1.6.0\res
+com.example.blogapp-jetified-window-1.0.0-beta04-2 C:\Users\Rnbro\.gradle\caches\transforms-3\29fe38a5fd6c3bf46cd8e59c2b63489e\transformed\jetified-window-1.0.0-beta04\res
+com.example.blogapp-webkit-1.11.0-3 C:\Users\Rnbro\.gradle\caches\transforms-3\6069a0fc6ef5409cc367e296aa8f2988\transformed\webkit-1.11.0\res
+com.example.blogapp-jetified-play-services-basement-18.1.0-4 C:\Users\Rnbro\.gradle\caches\transforms-3\812b774e80ed6f3274e67e516e447223\transformed\jetified-play-services-basement-18.1.0\res
+com.example.blogapp-jetified-firebase-common-20.4.2-5 C:\Users\Rnbro\.gradle\caches\transforms-3\8adc41e1868e9d15f43c78d8ff0d3012\transformed\jetified-firebase-common-20.4.2\res
+com.example.blogapp-jetified-window-java-1.0.0-beta04-6 C:\Users\Rnbro\.gradle\caches\transforms-3\978180320ed1d29d66a82edc9d24751e\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.blogapp-jetified-play-services-base-18.0.1-7 C:\Users\Rnbro\.gradle\caches\transforms-3\da836af96063471d9ecc25668dfd26c9\transformed\jetified-play-services-base-18.0.1\res
+com.example.blogapp-debug-8 D:\NICK PROJECT\MainProjects\blogapp\android\app\src\debug\res
+com.example.blogapp-main-9 D:\NICK PROJECT\MainProjects\blogapp\android\app\src\main\res
+com.example.blogapp-pngs-10 D:\NICK PROJECT\MainProjects\blogapp\build\app\generated\res\pngs\debug
+com.example.blogapp-resValues-11 D:\NICK PROJECT\MainProjects\blogapp\build\app\generated\res\resValues\debug
+com.example.blogapp-rs-12 D:\NICK PROJECT\MainProjects\blogapp\build\app\generated\res\rs\debug
+com.example.blogapp-mergeDebugResources-13 D:\NICK PROJECT\MainProjects\blogapp\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.blogapp-mergeDebugResources-14 D:\NICK PROJECT\MainProjects\blogapp\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.blogapp-merged_res-15 D:\NICK PROJECT\MainProjects\blogapp\build\app\intermediates\merged_res\debug
+com.example.blogapp-packaged_res-16 D:\NICK PROJECT\MainProjects\blogapp\build\app_links\intermediates\packaged_res\debug
+com.example.blogapp-packaged_res-17 D:\NICK PROJECT\MainProjects\blogapp\build\cloud_firestore\intermediates\packaged_res\debug
+com.example.blogapp-packaged_res-18 D:\NICK PROJECT\MainProjects\blogapp\build\firebase_core\intermediates\packaged_res\debug
+com.example.blogapp-packaged_res-19 D:\NICK PROJECT\MainProjects\blogapp\build\path_provider_android\intermediates\packaged_res\debug
+com.example.blogapp-packaged_res-20 D:\NICK PROJECT\MainProjects\blogapp\build\sqflite\intermediates\packaged_res\debug
+com.example.blogapp-packaged_res-21 D:\NICK PROJECT\MainProjects\blogapp\build\webview_flutter_android\intermediates\packaged_res\debug
