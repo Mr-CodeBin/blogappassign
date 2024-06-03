@@ -9,14 +9,14 @@ https://drive.google.com/drive/folders/1wi5tWh8f8lKwWjO6OhGFiKJxPj4Wd5kU?usp=sha
 
 -lib\config\firebasecreds.dart :
 
-class FirebaseCredentials {
-  static const String apiKey = 'YOUR_API_KEY';
-  static const String appId = 'APP_ID';
-  static const String messagingSenderId = 'MESSAGING_SENDER_ID';
-  static const String projectId = 'PROJECTID';
-  static const String storageBucket = 'STORAGE_BUCKET';
-  static const String iosBundleId = 'IOS_BUNDLE_ID';
-}
+class FirebaseCredentials {<br>
+  static const String apiKey = 'YOUR_API_KEY';<br>
+  static const String appId = 'APP_ID';<br>
+  static const String messagingSenderId = 'MESSAGING_SENDER_ID';<br>
+  static const String projectId = 'PROJECTID';<br>
+  static const String storageBucket = 'STORAGE_BUCKET';<br>
+  static const String iosBundleId = 'IOS_BUNDLE_ID';<br>
+}<br>
 
 
 
