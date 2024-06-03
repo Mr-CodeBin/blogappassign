@@ -1,6 +1,8 @@
 # blogapp
 
+[Demo Video](lib/demo/Android Emulator - Pixel_6_Pro_API_33_5554 2024-06-03 23-43-13.mp4)
 [DOWNLOAD APK](lib/demo/app-release.apk)
+
 
 ## GoogleDrive Folder for Video and release mode apk:
 
@@ -43,7 +45,7 @@ class FirebaseCredentials {<br>
 
 https://www.test-blog-app.com/blogs?id=05047e58-7093-4450-b434-e7d28c2f66e8
 
-Note:
+Note:<br>
 You can long press to copy the deeplink of a specific blog to test the working.
 
 
