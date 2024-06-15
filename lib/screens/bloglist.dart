@@ -7,6 +7,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hive/hive.dart';
 import 'package:http/http.dart' as http;
 import 'package:uuid/uuid.dart';
 
@@ -119,6 +120,23 @@ class _BlogListScreenState extends State<BlogListScreen> {
     return blogList;
   }
 
+  Future<List<Blog>> getBlogListHive() async {
+    var box = await Hive.openBox<Blog>('blogBox');
+    List<Blog> blogs = [];
+    // Check if blogs are available in Hive
+    if (box.isNotEmpty) {
+      blogs = box.values.toList();
+      log('Box: ${blogs.length}');
+    } else {
+      // Fetch from Firestore
+      blogs = await getblogsFromFirebase();
+      // Store fetched blogs in Hive
+      await box.addAll(blogs);
+    }
+
+    return blogs;
+  }
+
   @override
   void initState() {
     // TODO: implement initState
@@ -141,7 +159,7 @@ class _BlogListScreenState extends State<BlogListScreen> {
             automaticallyImplyLeading: false,
           ),
           body: FutureBuilder(
-            future: getblogsFromFirebase(),
+            future: getBlogListHive(),
             builder: (context, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return const Center(

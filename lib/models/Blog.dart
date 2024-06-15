@@ -1,10 +1,21 @@
+import 'package:hive/hive.dart';
+part 'Blog.g.dart';
+
+@HiveType(typeId: 0)
 class Blog {
+  @HiveField(0)
   String id;
+  @HiveField(1)
   String title;
+  @HiveField(2)
   String summary;
+  @HiveField(3)
   String imageurl;
+  @HiveField(4)
   String source;
+  @HiveField(6)
   String author;
+  @HiveField(7)
   DateTime date;
 
   Blog(

@@ -10,14 +10,19 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:hive/hive.dart';
 import 'package:http/http.dart' as http;
+import 'package:path_provider/path_provider.dart';
 import 'package:uuid/uuid.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   final _appLinks = AppLinks();
-
+  var appDocumentDirectory =
+      await getApplicationDocumentsDirectory(); // Get directory
+  Hive.init(appDocumentDirectory.path); // Initialize Hive
+  Hive.registerAdapter(BlogAdapter());
   _appLinks.stringLinkStream.listen((link) {
     if (link != null) {
       log('Link: $link');
